@@ -1,0 +1,269 @@
+2026-04-04T08:51:34.503+05:30  WARN 17084 --- [automation-engine] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14h22m28s670ms89µs500ns).
+2026-04-04T08:59:35.972+05:30  WARN 17084 --- [automation-engine] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m1s476ms458µs200ns).
+2026-04-04T09:05:26.669+05:30  WARN 17084 --- [automation-engine] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m20s655ms634µs500ns).
+2026-04-04T09:14:34.584+05:30  WARN 17084 --- [automation-engine] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m7s806ms96µs700ns).
+2026-04-04T09:39:38.006+05:30  WARN 17084 --- [automation-engine] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m3s32ms779µs400ns).
+2026-04-04T09:41:32.113+05:30  WARN 17084 --- [automation-engine] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m54s107ms109µs500ns).
+2026-04-04T09:55:02.437+05:30  WARN 17084 --- [automation-engine] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m30s235ms472µs500ns).
+2026-04-04T11:27:19.243+05:30  WARN 17084 --- [automation-engine] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h12m16s694ms190µs800ns).
+2026-04-04T11:30:11.427+05:30  WARN 17084 --- [automation-engine] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m52s184ms974µs).
+2026-04-04T11:50:16.200+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/project/swagger-ui/index.html", parameters={}
+2026-04-04T11:50:16.416+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2026-04-04T11:50:16.950+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2026-04-04T11:50:16.999+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/project/swagger-ui/swagger-ui.css", parameters={}
+2026-04-04T11:50:17.001+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2026-04-04T11:50:17.003+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2026-04-04T11:50:17.005+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/project/swagger-ui/swagger-initializer.js", parameters={}
+2026-04-04T11:50:17.006+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/project/swagger-ui/index.css", parameters={}
+2026-04-04T11:50:17.006+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2026-04-04T11:50:17.006+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2026-04-04T11:50:17.009+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2026-04-04T11:50:17.009+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/project/swagger-ui/swagger-ui-bundle.js", parameters={}
+2026-04-04T11:50:17.011+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/project/swagger-ui/swagger-ui-standalone-preset.js", parameters={}
+2026-04-04T11:50:17.012+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2026-04-04T11:50:17.012+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2026-04-04T11:50:17.014+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2026-04-04T11:50:17.016+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2026-04-04T11:50:17.147+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-04-04T11:50:17.173+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/project/v3/api-docs/swagger-config", parameters={}
+2026-04-04T11:50:17.175+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+2026-04-04T11:50:17.292+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json]
+2026-04-04T11:50:17.295+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [{configUrl=/project/v3/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:8080/project/swag (truncated)...]
+2026-04-04T11:50:17.337+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-04-04T11:50:17.354+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/project/v3/api-docs", parameters={}
+2026-04-04T11:50:17.355+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+2026-04-04T11:50:18.418+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json]
+2026-04-04T11:50:18.418+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [{7b226f70656e617069223a22332e302e31222c22696e666f223a7b227469746c65223a224f70656e41504920646566696e6 (truncated)...]
+2026-04-04T11:50:18.418+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-04-04T12:22:32.466+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/project/saveUpload", parameters={}
+2026-04-04T12:22:32.500+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.jsp.automation_engine.controller.AutomationController#saveUpload(List)
+2026-04-04T12:22:32.736+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-7] o.s.web.method.HandlerMethod             : Could not resolve parameter [0] in public com.jsp.automation_engine.automationDTO.AppResponseDTO com.jsp.automation_engine.controller.AutomationController.saveUpload(java.util.List<com.jsp.automation_engine.automationDTO.WorkflowDTO>): JSON parse error: Unexpected character ('1' (code 49)): was expecting comma to separate Object entries
+2026-04-04T12:22:32.784+05:30  WARN 17084 --- [automation-engine] [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('1' (code 49)): was expecting comma to separate Object entries]
+2026-04-04T12:22:32.801+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2026-04-04T12:22:32.967+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/project/error", parameters={}
+2026-04-04T12:22:32.967+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.webmvc.autoconfigure.error.BasicErrorController#error(HttpServletRequest)
+2026-04-04T12:22:33.000+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-04-04T12:22:33.000+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sat Apr 04 12:22:32 IST 2026, status=400, error=Bad Request, path=/project/saveUpload}]
+2026-04-04T12:22:33.017+05:30 DEBUG 17084 --- [automation-engine] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 400
+2026-04-04T12:22:43.781+05:30  INFO 17084 --- [automation-engine] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-04T12:22:43.809+05:30  INFO 17084 --- [automation-engine] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-04-04T12:22:43.828+05:30  INFO 17084 --- [automation-engine] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-04T12:22:50.034+05:30  INFO 66536 --- [automation-engine] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-04T12:22:50.085+05:30  INFO 66536 --- [automation-engine] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 2 JPA repository interfaces.
+2026-04-04T12:22:50.620+05:30  INFO 66536 --- [automation-engine] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-04-04T12:22:50.684+05:30  INFO 66536 --- [automation-engine] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1493 ms
+2026-04-04T12:22:50.785+05:30 DEBUG 66536 --- [automation-engine] [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2026-04-04T12:22:51.920+05:30  INFO 66536 --- [automation-engine] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-04T12:22:52.216+05:30 ERROR 66536 --- [automation-engine] [main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Could not determine recommended JdbcType for Java type 'java.util.Map<java.lang.String, java.lang.String>'
+2026-04-04T12:22:52.217+05:30  WARN 66536 --- [automation-engine] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [com/jsp/automation_engine/automationconfig/AutomationConfig.class]: Could not determine recommended JdbcType for Java type 'java.util.Map<java.lang.String, java.lang.String>'
+2026-04-04T12:22:52.235+05:30  INFO 66536 --- [automation-engine] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-04T12:22:52.246+05:30 ERROR 66536 --- [automation-engine] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [com/jsp/automation_engine/automationconfig/AutomationConfig.class]: Could not determine recommended JdbcType for Java type 'java.util.Map<java.lang.String, java.lang.String>'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1817) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:977) ~[spring-context-7.0.6.jar:7.0.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.6.jar:7.0.6]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.5.jar:4.0.5]
+	at com.jsp.automation_engine.AutomationEngineApplication.main(AutomationEngineApplication.java:11) ~[classes/:na]
+Caused by: org.hibernate.type.descriptor.java.spi.JdbcTypeRecommendationException: Could not determine recommended JdbcType for Java type 'java.util.Map<java.lang.String, java.lang.String>'
+	at org.hibernate.type.descriptor.java.spi.UnknownBasicJavaType.getRecommendedJdbcType(UnknownBasicJavaType.java:60) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.boot.model.process.internal.InferredBasicValueResolver.from(InferredBasicValueResolver.java:161) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.mapping.BasicValue.resolution(BasicValue.java:643) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.mapping.BasicValue.buildResolution(BasicValue.java:447) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.mapping.BasicValue.buildResolution(BasicValue.java:421) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.mapping.BasicValue.resolve(BasicValue.java:338) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.mapping.BasicValue.resolve(BasicValue.java:328) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.lambda$processValueResolvers$0(InFlightMetadataCollectorImpl.java:1760) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at java.base/java.util.ArrayList.removeIf(ArrayList.java:1773) ~[na:na]
+	at java.base/java.util.ArrayList.removeIf(ArrayList.java:1751) ~[na:na]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processValueResolvers(InFlightMetadataCollectorImpl.java:1760) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1749) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.coordinateProcessors(MetadataBuildingProcess.java:357) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:201) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1392) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.populateSessionFactoryBuilder(EntityManagerFactoryBuilderImpl.java:1472) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1454) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:93) ~[spring-orm-7.0.6.jar:7.0.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:443) ~[spring-orm-7.0.6.jar:7.0.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:436) ~[spring-orm-7.0.6.jar:7.0.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:411) ~[spring-orm-7.0.6.jar:7.0.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:419) ~[spring-orm-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813) ~[spring-beans-7.0.6.jar:7.0.6]
+	... 15 common frames omitted
+
+2026-04-04T12:23:30.494+05:30  INFO 59396 --- [automation-engine] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-04T12:23:30.538+05:30  INFO 59396 --- [automation-engine] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 2 JPA repository interfaces.
+2026-04-04T12:23:30.982+05:30  INFO 59396 --- [automation-engine] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-04-04T12:23:31.054+05:30  INFO 59396 --- [automation-engine] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1218 ms
+2026-04-04T12:23:31.148+05:30 DEBUG 59396 --- [automation-engine] [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2026-04-04T12:23:31.904+05:30  INFO 59396 --- [automation-engine] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-04T12:23:32.835+05:30  INFO 59396 --- [automation-engine] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-04T12:23:32.917+05:30  INFO 59396 --- [automation-engine] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-04T12:23:33.567+05:30  WARN 59396 --- [automation-engine] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-04T12:23:33.600+05:30  INFO 59396 --- [automation-engine] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2026-04-04T12:23:33.689+05:30 DEBUG 59396 --- [automation-engine] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2026-04-04T12:23:33.727+05:30 DEBUG 59396 --- [automation-engine] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-04-04T12:23:33.754+05:30 DEBUG 59396 --- [automation-engine] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-04-04T12:23:33.800+05:30 DEBUG 59396 --- [automation-engine] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-04-04T12:23:34.001+05:30  INFO 59396 --- [automation-engine] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-04-04T12:23:34.059+05:30  INFO 59396 --- [automation-engine] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/project'
+2026-04-04T12:23:38.629+05:30  INFO 59396 --- [automation-engine] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-04T12:23:38.629+05:30 DEBUG 59396 --- [automation-engine] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2026-04-04T12:23:38.629+05:30 DEBUG 59396 --- [automation-engine] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2026-04-04T12:23:38.629+05:30 DEBUG 59396 --- [automation-engine] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@61874f5d
+2026-04-04T12:23:38.629+05:30 DEBUG 59396 --- [automation-engine] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@68938ccf
+2026-04-04T12:23:38.629+05:30 DEBUG 59396 --- [automation-engine] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-04-04T12:23:38.629+05:30  INFO 59396 --- [automation-engine] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-04-04T12:23:38.640+05:30 DEBUG 59396 --- [automation-engine] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/project/saveUpload", parameters={}
+2026-04-04T12:23:38.661+05:30 DEBUG 59396 --- [automation-engine] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.jsp.automation_engine.controller.AutomationController#saveUpload(List)
+2026-04-04T12:23:38.762+05:30 DEBUG 59396 --- [automation-engine] [http-nio-8080-exec-1] o.s.web.method.HandlerMethod             : Could not resolve parameter [0] in public com.jsp.automation_engine.automationDTO.AppResponseDTO com.jsp.automation_engine.controller.AutomationController.saveUpload(java.util.List<com.jsp.automation_engine.automationDTO.WorkflowDTO>): JSON parse error: Unexpected character ('1' (code 49)): was expecting comma to separate Object entries
+2026-04-04T12:23:38.762+05:30  WARN 59396 --- [automation-engine] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('1' (code 49)): was expecting comma to separate Object entries]
+2026-04-04T12:23:38.762+05:30 DEBUG 59396 --- [automation-engine] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2026-04-04T12:23:38.762+05:30 DEBUG 59396 --- [automation-engine] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/project/error", parameters={}
+2026-04-04T12:23:38.762+05:30 DEBUG 59396 --- [automation-engine] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.webmvc.autoconfigure.error.BasicErrorController#error(HttpServletRequest)
+2026-04-04T12:23:38.781+05:30 DEBUG 59396 --- [automation-engine] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-04-04T12:23:38.781+05:30 DEBUG 59396 --- [automation-engine] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sat Apr 04 12:23:38 IST 2026, status=400, error=Bad Request, path=/project/saveUpload}]
+2026-04-04T12:23:38.809+05:30 DEBUG 59396 --- [automation-engine] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 400
+2026-04-04T12:24:32.225+05:30 DEBUG 59396 --- [automation-engine] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/project/saveUpload", parameters={}
+2026-04-04T12:24:32.225+05:30 DEBUG 59396 --- [automation-engine] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.jsp.automation_engine.controller.AutomationController#saveUpload(List)
+2026-04-04T12:24:32.225+05:30 DEBUG 59396 --- [automation-engine] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [[WorkflowDTO(workflowCode=wf02, sourceData=sjs, tenantID=t02, workflowName=sms, uniqueField=smsme, e (truncated)...]
+2026-04-04T12:24:32.415+05:30 DEBUG 59396 --- [automation-engine] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-04-04T12:24:32.415+05:30 DEBUG 59396 --- [automation-engine] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [AppResponseDTO(statusCode=200, errormessage=null, status=Sucess, data=[WorkFlowModel(altKey=11068909 (truncated)...]
+2026-04-04T12:24:32.431+05:30 DEBUG 59396 --- [automation-engine] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-04-04T12:51:13.650+05:30  INFO 59396 --- [automation-engine] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-04T12:51:13.669+05:30  INFO 59396 --- [automation-engine] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-04-04T12:51:13.676+05:30  INFO 59396 --- [automation-engine] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-04T12:51:18.601+05:30  INFO 48204 --- [automation-engine] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-04T12:51:18.648+05:30  INFO 48204 --- [automation-engine] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
+2026-04-04T12:51:19.094+05:30  INFO 48204 --- [automation-engine] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-04-04T12:51:19.151+05:30  INFO 48204 --- [automation-engine] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1313 ms
+2026-04-04T12:51:19.249+05:30 DEBUG 48204 --- [automation-engine] [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2026-04-04T12:51:20.082+05:30  INFO 48204 --- [automation-engine] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-04T12:51:20.286+05:30 ERROR 48204 --- [automation-engine] [main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Could not determine recommended JdbcType for Java type 'java.util.Map<java.lang.String, java.lang.String>'
+2026-04-04T12:51:20.286+05:30  WARN 48204 --- [automation-engine] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [com/jsp/automation_engine/automationconfig/AutomationConfig.class]: Could not determine recommended JdbcType for Java type 'java.util.Map<java.lang.String, java.lang.String>'
+2026-04-04T12:51:20.304+05:30  INFO 48204 --- [automation-engine] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-04T12:51:20.319+05:30 ERROR 48204 --- [automation-engine] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [com/jsp/automation_engine/automationconfig/AutomationConfig.class]: Could not determine recommended JdbcType for Java type 'java.util.Map<java.lang.String, java.lang.String>'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1817) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:977) ~[spring-context-7.0.6.jar:7.0.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.6.jar:7.0.6]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.5.jar:4.0.5]
+	at com.jsp.automation_engine.AutomationEngineApplication.main(AutomationEngineApplication.java:11) ~[classes/:na]
+Caused by: org.hibernate.type.descriptor.java.spi.JdbcTypeRecommendationException: Could not determine recommended JdbcType for Java type 'java.util.Map<java.lang.String, java.lang.String>'
+	at org.hibernate.type.descriptor.java.spi.UnknownBasicJavaType.getRecommendedJdbcType(UnknownBasicJavaType.java:60) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.boot.model.process.internal.InferredBasicValueResolver.from(InferredBasicValueResolver.java:161) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.mapping.BasicValue.resolution(BasicValue.java:643) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.mapping.BasicValue.buildResolution(BasicValue.java:447) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.mapping.BasicValue.buildResolution(BasicValue.java:421) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.mapping.BasicValue.resolve(BasicValue.java:338) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.mapping.BasicValue.resolve(BasicValue.java:328) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.lambda$processValueResolvers$0(InFlightMetadataCollectorImpl.java:1760) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at java.base/java.util.ArrayList.removeIf(ArrayList.java:1773) ~[na:na]
+	at java.base/java.util.ArrayList.removeIf(ArrayList.java:1751) ~[na:na]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processValueResolvers(InFlightMetadataCollectorImpl.java:1760) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1749) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.coordinateProcessors(MetadataBuildingProcess.java:357) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:201) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1392) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.populateSessionFactoryBuilder(EntityManagerFactoryBuilderImpl.java:1472) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1454) ~[hibernate-core-7.2.7.Final.jar:7.2.7.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:93) ~[spring-orm-7.0.6.jar:7.0.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:443) ~[spring-orm-7.0.6.jar:7.0.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:436) ~[spring-orm-7.0.6.jar:7.0.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:411) ~[spring-orm-7.0.6.jar:7.0.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:419) ~[spring-orm-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813) ~[spring-beans-7.0.6.jar:7.0.6]
+	... 15 common frames omitted
+
+2026-04-04T12:51:34.936+05:30  INFO 19004 --- [automation-engine] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-04T12:51:34.979+05:30  INFO 19004 --- [automation-engine] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 2 JPA repository interfaces.
+2026-04-04T12:51:35.403+05:30  INFO 19004 --- [automation-engine] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-04-04T12:51:35.460+05:30  INFO 19004 --- [automation-engine] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1200 ms
+2026-04-04T12:51:35.551+05:30 DEBUG 19004 --- [automation-engine] [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2026-04-04T12:51:36.331+05:30  INFO 19004 --- [automation-engine] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-04T12:51:37.142+05:30  INFO 19004 --- [automation-engine] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-04T12:51:37.201+05:30  INFO 19004 --- [automation-engine] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-04T12:51:37.668+05:30  WARN 19004 --- [automation-engine] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'automationServiceImpl': Unsatisfied dependency expressed through field 'nodeModel': No qualifying bean of type 'com.jsp.automation_engine.automationentity.NodeModel' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2026-04-04T12:51:37.668+05:30  INFO 19004 --- [automation-engine] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-04T12:51:37.685+05:30  INFO 19004 --- [automation-engine] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-04T12:51:37.695+05:30 ERROR 19004 --- [automation-engine] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field nodeModel in com.jsp.automation_engine.automationservice.AutomationServiceImpl required a bean of type 'com.jsp.automation_engine.automationentity.NodeModel' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.jsp.automation_engine.automationentity.NodeModel' in your configuration.
+
+2026-04-04T12:57:14.133+05:30  INFO 37756 --- [automation-engine] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-04T12:57:14.185+05:30  INFO 37756 --- [automation-engine] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 2 JPA repository interfaces.
+2026-04-04T12:57:14.806+05:30  INFO 37756 --- [automation-engine] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-04-04T12:57:14.869+05:30  INFO 37756 --- [automation-engine] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1545 ms
+2026-04-04T12:57:14.969+05:30 DEBUG 37756 --- [automation-engine] [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2026-04-04T12:57:16.539+05:30  INFO 37756 --- [automation-engine] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-04T12:57:17.476+05:30  INFO 37756 --- [automation-engine] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-04T12:57:17.551+05:30  INFO 37756 --- [automation-engine] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-04T12:57:18.260+05:30  WARN 37756 --- [automation-engine] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-04T12:57:18.293+05:30  INFO 37756 --- [automation-engine] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2026-04-04T12:57:18.436+05:30 DEBUG 37756 --- [automation-engine] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2026-04-04T12:57:18.479+05:30 DEBUG 37756 --- [automation-engine] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-04-04T12:57:18.517+05:30 DEBUG 37756 --- [automation-engine] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-04-04T12:57:18.568+05:30 DEBUG 37756 --- [automation-engine] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-04-04T12:57:18.780+05:30  INFO 37756 --- [automation-engine] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-04-04T12:57:18.840+05:30  INFO 37756 --- [automation-engine] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/project'
+2026-04-04T12:58:02.826+05:30  INFO 37756 --- [automation-engine] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-04T12:58:02.826+05:30 DEBUG 37756 --- [automation-engine] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2026-04-04T12:58:02.828+05:30 DEBUG 37756 --- [automation-engine] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2026-04-04T12:58:02.837+05:30 DEBUG 37756 --- [automation-engine] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@66dad66f
+2026-04-04T12:58:02.837+05:30 DEBUG 37756 --- [automation-engine] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@6cdfd50a
+2026-04-04T12:58:02.839+05:30 DEBUG 37756 --- [automation-engine] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-04-04T12:58:02.839+05:30  INFO 37756 --- [automation-engine] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2026-04-04T12:58:02.850+05:30 DEBUG 37756 --- [automation-engine] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/project/updateStatus", parameters={}
+2026-04-04T12:58:02.864+05:30 DEBUG 37756 --- [automation-engine] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.jsp.automation_engine.controller.AutomationController#updateStatus(UpdateStatusDTO)
+2026-04-04T12:58:02.936+05:30 DEBUG 37756 --- [automation-engine] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [UpdateStatusDTO(workflowCode=WF01, workflowID=WF01_0, statusFlag=ACTIVE)]
+2026-04-04T12:58:03.272+05:30 DEBUG 37756 --- [automation-engine] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-04-04T12:58:03.273+05:30 DEBUG 37756 --- [automation-engine] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [AppResponseDTO(statusCode=200, errormessage=null, status=success, data=null)]
+2026-04-04T12:58:03.287+05:30 DEBUG 37756 --- [automation-engine] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-04-04T13:07:44.061+05:30  INFO 37756 --- [automation-engine] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-04T13:07:44.113+05:30  INFO 37756 --- [automation-engine] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-04-04T13:07:44.119+05:30  INFO 37756 --- [automation-engine] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
