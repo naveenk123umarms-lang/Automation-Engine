@@ -5,6 +5,9 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 import java.math.BigInteger;
+import java.util.List;
+
 @Repository
 public interface NodeRepo extends JpaRepository<NodeModel, BigInteger> {
+    public List<NodeModel> findByWorkflowIDAndTenantID(String wfId,String tId);
 }

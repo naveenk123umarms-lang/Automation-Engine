@@ -10,4 +10,5 @@ public interface AutomationService {
     AppResponseDTO processSaveUpload(List<WorkflowDTO> dto);
 
     AppResponseDTO processUpdateStatus(UpdateStatusDTO dto);
+
 }

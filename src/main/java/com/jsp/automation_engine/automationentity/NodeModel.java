@@ -1,6 +1,8 @@
 package com.jsp.automation_engine.automationentity;
 
+
 import com.jsp.automation_engine.automationservice.ListToJsonConverter;
+
 import com.jsp.automation_engine.automationservice.MapToJsonConverter;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -19,7 +21,6 @@ import java.util.concurrent.ThreadLocalRandom;
 @Table(name = "sa_wf_node")
 public class NodeModel extends BaseEntity{
     @Id
-
     @Column(name = "alt_key")
     private BigInteger altKey=generateAltKey();
     @Column(name = "workflow_id")
@@ -29,7 +30,7 @@ public class NodeModel extends BaseEntity{
     @Column(name = "node_type")
     private String nodeType;
     @Column(name = "node_id")
-    private String node_ID;
+    private String nodeID;
 
     @Convert(converter = ListToJsonConverter.class)
     @Column(name = "outgoing_nodes", columnDefinition = "TEXT")

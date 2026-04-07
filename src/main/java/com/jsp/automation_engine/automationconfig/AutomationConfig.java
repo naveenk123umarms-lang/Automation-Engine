@@ -26,11 +26,11 @@ public class AutomationConfig {
 
     }
     @Bean
-    public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
+    public LocalContainerEntityManagerFactoryBean entityManagerFactory(DataSource dataSource) {
 
         LocalContainerEntityManagerFactoryBean emf = new LocalContainerEntityManagerFactoryBean();
 
-        emf.setDataSource(dataSource());
+        emf.setDataSource(dataSource);
         emf.setPackagesToScan(AppConstants.BASE_PACKAGE);
 
         HibernateJpaVendorAdapter adapter = new HibernateJpaVendorAdapter();
@@ -46,9 +46,9 @@ public class AutomationConfig {
     }
 
     @Bean
-    public JpaTransactionManager transactionManager() {
+    public JpaTransactionManager transactionManager(LocalContainerEntityManagerFactoryBean emf) {
         JpaTransactionManager txManager = new JpaTransactionManager();
-        txManager.setEntityManagerFactory(entityManagerFactory().getObject());
+        txManager.setEntityManagerFactory(emf.getObject());
         return txManager;
     }
 }

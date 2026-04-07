@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.math.BigInteger;
+import java.util.List;
 
 @Data
 @NoArgsConstructor
@@ -34,4 +35,6 @@ public class WorkFlowModel extends BaseEntity {
     private String uniqueField;
     @Column(name = "source_data", columnDefinition = "LONGTEXT")
     private String sourceData;
+    @Transient
+    private List<NodeModel> NodeProperties;
 }

@@ -3,9 +3,11 @@ package com.jsp.automation_engine.automationservice;
 import com.jsp.automation_engine.automationDTO.AppResponseDTO;
 import com.jsp.automation_engine.automationDTO.UpdateStatusDTO;
 import com.jsp.automation_engine.automationDTO.WorkflowDTO;
+import com.jsp.automation_engine.automationentity.NodeConfig;
 import com.jsp.automation_engine.automationentity.NodeModel;
 import com.jsp.automation_engine.automationentity.WorkFlowModel;
 import com.jsp.automation_engine.automationrepository.AutomationEngineRepo;
+import com.jsp.automation_engine.automationrepository.NodeConfigRepo;
 import com.jsp.automation_engine.automationrepository.NodeRepo;
 import jakarta.transaction.Transactional;
 import org.slf4j.Logger;
@@ -30,8 +32,11 @@ public class AutomationServiceImpl implements AutomationService {
     Logger logger = LoggerFactory.getLogger(AutomationServiceImpl.class);
     @Autowired
     NodeRepo nodeRepo;
+    @Autowired
+    NodeConfigBuilder nodeConfigBuilder;
+    @Autowired
+    NodeConfigRepo nodeConfigRepo;
 
-    NodeModel nodeModel=new NodeModel();
 
     @Override
     public AppResponseDTO processSaveUpload(List<WorkflowDTO> dto) {
@@ -87,9 +92,11 @@ public class AutomationServiceImpl implements AutomationService {
             draft.setWorkflowID(draft.getWorkflowCode() + "_" + draft.getWorkflowVersion());
             repo.save(draft);
 
-            List<NodeModel> nodeList = getNodeList(draft.getSourceData(), draft.getWorkflowID(),draft.getTenantID());
-
+            List<NodeModel> nodeList = parse(draft.getSourceData(), draft.getWorkflowID(),draft.getTenantID());
             nodeRepo.saveAll(nodeList);
+            WorkFlowModel flowModel = getWorkflowbyIdandtId(draft.getWorkflowID(), draft.getTenantID());
+            List<NodeConfig> nodeConfig = nodeConfigBuilder.getNodeConfig(flowModel.getNodeProperties());
+            nodeConfigRepo.saveAll(nodeConfig);
 
 
             return new AppResponseDTO("200", null, "success", null);
@@ -98,26 +105,33 @@ public class AutomationServiceImpl implements AutomationService {
         }
 
     }
-
-
-
+    public WorkFlowModel getWorkflowbyIdandtId(String wfId, String tID) {
+        WorkFlowModel byWorkflowIDAndTenantID = repo.findByWorkflowIDAndTenantID(wfId, tID);
+        List<NodeModel> nodeModelList = nodeRepo.findByWorkflowIDAndTenantID(wfId, tID);
+        byWorkflowIDAndTenantID.setNodeProperties(nodeModelList);
+        return byWorkflowIDAndTenantID;
+    }
     public BigInteger generateAltKey() {
         return new BigInteger(ThreadLocalRandom.current().nextInt(Integer.MAX_VALUE) + "");
     }
-    public List<NodeModel> getNodeList(String xml, String workflowcode,String tenentid){
+    public List<NodeModel> parse(String xml, String workflowCode, String tenantId) {
+
         try {
             SAXParserFactory factory = SAXParserFactory.newInstance();
             SAXParser saxParser = factory.newSAXParser();
 
-            BPMNHandler handler = new BPMNHandler(workflowcode,tenentid);
+            BPMNHandler handler = new BPMNHandler(workflowCode, tenantId);
+
             saxParser.parse(new InputSource(new StringReader(xml)), handler);
 
             return handler.getNodes();
 
         } catch (Exception e) {
-            throw new RuntimeException("Error parsing XML", e);
+            throw new RuntimeException("Error parsing BPMN XML", e);
         }
+    }
 
     }
-}
+
+
 
