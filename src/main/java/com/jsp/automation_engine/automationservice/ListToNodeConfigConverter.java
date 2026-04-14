@@ -11,7 +11,7 @@ import jakarta.persistence.Converter;
 import java.util.List;
 
 @Converter
-public class ListToNodeConfigConverter1 implements AttributeConverter<List<NodeConfig>, String> {
+public class ListToNodeConfigConverter implements AttributeConverter<List<NodeConfig>, String> {
 
     private final ObjectMapper mapper = new ObjectMapper();
 

@@ -94,6 +94,7 @@ public class AutomationServiceImpl implements AutomationService {
 
             List<NodeModel> nodeList = parse(draft.getSourceData(), draft.getWorkflowID(),draft.getTenantID());
             nodeRepo.saveAll(nodeList);
+
             WorkFlowModel flowModel = getWorkflowbyIdandtId(draft.getWorkflowID(), draft.getTenantID());
             List<NodeConfig> nodeConfig = nodeConfigBuilder.getNodeConfig(flowModel.getNodeProperties());
             nodeConfigRepo.saveAll(nodeConfig);

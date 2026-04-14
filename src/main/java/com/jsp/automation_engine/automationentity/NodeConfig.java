@@ -1,8 +1,7 @@
 package com.jsp.automation_engine.automationentity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.jsp.automation_engine.automationservice.ListToJsonConverter;
-import com.jsp.automation_engine.automationservice.ListToNodeConfigConverter1;
+import com.jsp.automation_engine.automationservice.ListToNodeConfigConverter;
 import com.jsp.automation_engine.automationservice.MapToJsonConverter;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -37,11 +36,11 @@ public class NodeConfig {
     @Column(name = "is_end_node")
     private Boolean isEndNode;
     @JsonIgnore
-    @Convert(converter = ListToNodeConfigConverter1.class)
+    @Convert(converter = ListToNodeConfigConverter.class)
     @Column(name = "incoming_node")
     private List<NodeConfig> incomingNode;
     @JsonIgnore
-    @Convert(converter = ListToNodeConfigConverter1.class)
+    @Convert(converter = ListToNodeConfigConverter.class)
     @Column(name = "outgoing_node")
     private List<NodeConfig> outgoingNode;
 
