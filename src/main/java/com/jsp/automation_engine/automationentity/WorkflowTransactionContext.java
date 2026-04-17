@@ -3,8 +3,7 @@ package com.jsp.automation_engine.automationentity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.context.annotation.Bean;
-import org.springframework.stereotype.Component;
+
 
 import java.util.Collections;
 import java.util.Date;
@@ -13,7 +12,6 @@ import java.util.HashMap;
 import java.util.Map;
 @AllArgsConstructor
 @NoArgsConstructor
-@Component
 @Data
 public class WorkflowTransactionContext implements Cloneable{
     private WorkFlowModel workFlowModel;
@@ -50,8 +48,8 @@ public class WorkflowTransactionContext implements Cloneable{
         try {
             WorkflowTransactionContext clone = (WorkflowTransactionContext) super.clone();
             clone.remarks=this.remarks;
-            clone.workflowTransactionEntity=this.workflowTransactionEntity;
-            clone.nextNodeConfig=this.nextNodeConfig;
+            clone.workflowTransactionEntity=this.workflowTransactionEntity.clone();
+            clone.nextNodeConfig = this.nextNodeConfig!=null?this.nextNodeConfig.clone():null;
 
             if (this.currentNodeExecutionContextMap!=null) {
                 HashMap<String, NodeExecutionContext> map = new HashMap<>();
@@ -61,9 +59,9 @@ public class WorkflowTransactionContext implements Cloneable{
                 clone.currentNodeExecutionContextMap = map;
             }else clone.currentNodeExecutionContextMap=null;
 
-            clone.workFlowModel=this.workFlowModel;
-            clone.executionStartDate= (Date) this.executionStartDate.clone();
-            clone.executionEndDate= (Date) this.executionEndDate.clone();
+            clone.workFlowModel = this.workFlowModel != null ? this.workFlowModel.clone() : null;
+            clone.executionStartDate = this.executionStartDate != null ? (Date) this.executionStartDate.clone() : null;
+            clone.executionEndDate = this.executionEndDate != null ? (Date) this.executionEndDate.clone() : null;
 
 
 

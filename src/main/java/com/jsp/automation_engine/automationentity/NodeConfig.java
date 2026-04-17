@@ -18,7 +18,7 @@ import java.util.concurrent.ThreadLocalRandom;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "sa_wf_nodeconfig")
-public class NodeConfig {
+public class NodeConfig implements Cloneable {
     @Id
     @Column(name = "alt_key")
     private BigInteger altKey=generateAltKey();
@@ -46,5 +46,16 @@ public class NodeConfig {
 
     public BigInteger generateAltKey() {
         return new BigInteger(ThreadLocalRandom.current().nextInt(Integer.MAX_VALUE) + "");
+    }
+
+    @Override
+    public NodeConfig clone() {
+        try {
+            NodeConfig clone = (NodeConfig) super.clone();
+            // TODO: copy mutable state here, so the clone can't change the internals of the original
+            return clone;
+        } catch (CloneNotSupportedException e) {
+            throw new AssertionError();
+        }
     }
 }

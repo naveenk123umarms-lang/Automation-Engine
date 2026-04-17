@@ -9,8 +9,19 @@ import org.springframework.stereotype.Component;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class NodeExectionResult {
+public class NodeExectionResult implements Cloneable{
     private Boolean executionResult;
     private String executionStatus;
     private String remarks;
+
+    @Override
+    public NodeExectionResult clone() {
+        try {
+            NodeExectionResult clone = (NodeExectionResult) super.clone();
+
+            return clone;
+        } catch (CloneNotSupportedException e) {
+            throw new AssertionError();
+        }
+    }
 }

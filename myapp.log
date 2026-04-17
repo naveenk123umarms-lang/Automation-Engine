@@ -1,3 +1,4 @@
-2026-04-14T09:20:46.561+05:30  WARN 34208 --- [automation-engine] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11h6m20s165ms728µs100ns).
-2026-04-14T09:39:27.346+05:30  WARN 34208 --- [automation-engine] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m10s411ms244µs500ns).
-2026-04-14T09:57:22.845+05:30  WARN 34208 --- [automation-engine] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m25s484ms797µs).
+2026-04-16T08:28:42.402+05:30  WARN 34208 --- [automation-engine] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16h36m21s70ms335µs).
+2026-04-16T09:11:50.823+05:30  INFO 34208 --- [automation-engine] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-16T09:11:51.093+05:30  INFO 34208 --- [automation-engine] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-04-16T09:11:51.202+05:30  INFO 34208 --- [automation-engine] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'

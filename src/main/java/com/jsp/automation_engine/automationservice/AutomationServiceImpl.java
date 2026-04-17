@@ -112,6 +112,7 @@ public class AutomationServiceImpl implements AutomationService {
         byWorkflowIDAndTenantID.setNodeProperties(nodeModelList);
         return byWorkflowIDAndTenantID;
     }
+
     public BigInteger generateAltKey() {
         return new BigInteger(ThreadLocalRandom.current().nextInt(Integer.MAX_VALUE) + "");
     }

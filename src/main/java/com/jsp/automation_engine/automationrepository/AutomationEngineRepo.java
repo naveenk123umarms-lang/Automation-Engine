@@ -24,4 +24,5 @@ public interface AutomationEngineRepo extends JpaRepository<WorkFlowModel, BigIn
     public BigInteger maxVersion(String workflowCode);
 
     public WorkFlowModel findByWorkflowIDAndTenantID(String wfId,String tId);
+    public WorkFlowModel findByWorkflowID(String wfId);
 }

@@ -15,7 +15,7 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "sa_wf_transaction")
-public class WorkflowTransactionEntity extends BaseEntity {
+public class WorkflowTransactionEntity extends BaseEntity implements Cloneable {
     @Id
     @Column(name = "alt_key")
     private BigInteger altkey;
@@ -39,4 +39,14 @@ public class WorkflowTransactionEntity extends BaseEntity {
     private  Date transactionEndDate;
 
 
+    @Override
+    public WorkflowTransactionEntity clone() {
+        try {
+            WorkflowTransactionEntity clone = (WorkflowTransactionEntity) super.clone();
+
+            return clone;
+        } catch (CloneNotSupportedException e) {
+            throw new AssertionError();
+        }
+    }
 }
