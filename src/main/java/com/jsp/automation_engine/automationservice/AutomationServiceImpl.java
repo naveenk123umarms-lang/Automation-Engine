@@ -6,9 +6,11 @@ import com.jsp.automation_engine.automationDTO.WorkflowDTO;
 import com.jsp.automation_engine.automationentity.NodeConfig;
 import com.jsp.automation_engine.automationentity.NodeModel;
 import com.jsp.automation_engine.automationentity.WorkFlowModel;
+import com.jsp.automation_engine.automationentity.WorkflowTransactionEntity;
 import com.jsp.automation_engine.automationrepository.AutomationEngineRepo;
 import com.jsp.automation_engine.automationrepository.NodeConfigRepo;
 import com.jsp.automation_engine.automationrepository.NodeRepo;
+import com.jsp.automation_engine.automationrepository.TransactionRepository;
 import jakarta.transaction.Transactional;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,6 +22,7 @@ import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 import java.io.StringReader;
 import java.math.BigInteger;
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.ThreadLocalRandom;
@@ -36,6 +39,10 @@ public class AutomationServiceImpl implements AutomationService {
     NodeConfigBuilder nodeConfigBuilder;
     @Autowired
     NodeConfigRepo nodeConfigRepo;
+    @Autowired
+    TransactionRepository transactionRepository;
+    @Autowired
+    TransactionServiceImpl transactionService;
 
 
     @Override
@@ -87,17 +94,20 @@ public class AutomationServiceImpl implements AutomationService {
             WorkFlowModel draft = repo.findWithLock(dto.getWorkflowCode(), "DRAFT");
             draft.setStatusFlag("ACTIVE");
             BigInteger bigInteger = repo.maxVersion(dto.getWorkflowCode());
-            logger.debug(" maxVersion:{}",bigInteger);
-            draft.setWorkflowVersion(Integer.valueOf(String.valueOf(bigInteger))+1);
+            logger.debug(" maxVersion:{}", bigInteger);
+            draft.setWorkflowVersion(Integer.valueOf(String.valueOf(bigInteger)) + 1);
             draft.setWorkflowID(draft.getWorkflowCode() + "_" + draft.getWorkflowVersion());
             repo.save(draft);
 
-            List<NodeModel> nodeList = parse(draft.getSourceData(), draft.getWorkflowID(),draft.getTenantID());
+            List<NodeModel> nodeList = parse(draft.getSourceData(), draft.getWorkflowID(), draft.getTenantID());
             nodeRepo.saveAll(nodeList);
+
 
             WorkFlowModel flowModel = getWorkflowbyIdandtId(draft.getWorkflowID(), draft.getTenantID());
             List<NodeConfig> nodeConfig = nodeConfigBuilder.getNodeConfig(flowModel.getNodeProperties());
             nodeConfigRepo.saveAll(nodeConfig);
+
+            createTxEntity(draft);
 
 
             return new AppResponseDTO("200", null, "success", null);
@@ -106,6 +116,22 @@ public class AutomationServiceImpl implements AutomationService {
         }
 
     }
+
+    public void createTxEntity(WorkFlowModel workFlowModel) {
+        WorkflowTransactionEntity workflowTransactionEntity = new WorkflowTransactionEntity();
+        workflowTransactionEntity.setAltkey(generateAltKey());
+        workflowTransactionEntity.setWorkflowCode(workFlowModel.getWorkflowCode());
+        workflowTransactionEntity.setTenantId(workFlowModel.getTenantID());
+        workflowTransactionEntity.setStatusFlag("IN_PROGRESS");
+        workflowTransactionEntity.setTransactionStartDate(new Date());
+        workflowTransactionEntity.setWorkflowId(workFlowModel.getWorkflowID());
+        transactionRepository.save(workflowTransactionEntity);
+
+        transactionService.createTransactionContext(workflowTransactionEntity, workFlowModel);
+
+
+    }
+
     public WorkFlowModel getWorkflowbyIdandtId(String wfId, String tID) {
         WorkFlowModel byWorkflowIDAndTenantID = repo.findByWorkflowIDAndTenantID(wfId, tID);
         List<NodeModel> nodeModelList = nodeRepo.findByWorkflowIDAndTenantID(wfId, tID);
@@ -116,6 +142,7 @@ public class AutomationServiceImpl implements AutomationService {
     public BigInteger generateAltKey() {
         return new BigInteger(ThreadLocalRandom.current().nextInt(Integer.MAX_VALUE) + "");
     }
+
     public List<NodeModel> parse(String xml, String workflowCode, String tenantId) {
 
         try {
@@ -133,7 +160,7 @@ public class AutomationServiceImpl implements AutomationService {
         }
     }
 
-    }
+}
 
 
 
